@@ -1,0 +1,21 @@
+{
+  "name": "hw-06",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://kondrov220.github.io/hw-06/",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --no-cache --public-url /g/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  },
+  "dependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
